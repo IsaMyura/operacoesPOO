@@ -1,0 +1,17 @@
+
+import sp.senai.br.operacoesmatematicas.Operacoes;
+
+
+public class Main {
+    
+    public static void main(String[] args) {
+        
+        Operacoes objeto = new Operacoes();
+        
+       double soma = objeto.adicao(5, 100);
+        
+        System.out.println(soma);
+        
+       System.exit(0);
+    }
+}
